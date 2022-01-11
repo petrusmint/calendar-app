@@ -12,11 +12,11 @@ const HomeLogic = ({url}) => {
                 return ( <Card data={data} key={data.id}/> )
             })
     
-            setCards(newCards)
+            setCards(newCards);
         }
     }, [appointments])
 
-    return (cards)
+    return (cards);
 }
 
 export default HomeLogic;

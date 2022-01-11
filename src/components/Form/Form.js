@@ -13,7 +13,7 @@ const Form = ({ data, formName }) => {
         error,
         deleteBtn,
         handleDelete
-    } = FormLogic(data)
+    } = FormLogic(data);
 
     return (
         <>
@@ -113,4 +113,4 @@ const Form = ({ data, formName }) => {
     )
 }
 
-export default Form
+export default Form;

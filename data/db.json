@@ -11,24 +11,6 @@
       "status": "pending",
       "date": "2022-01-14T00:00:00.000Z",
       "id": 2
-    },
-    {
-      "title": "Create Fantasy",
-      "status": "on-going",
-      "date": "2022-01-12T00:00:00.000Z",
-      "id": 3
-    },
-    {
-      "title": "Watch Anime",
-      "status": "done",
-      "date": "2022-01-11T00:00:00.000Z",
-      "id": 4
-    },
-    {
-      "title": "Test the website",
-      "status": "on-going",
-      "date": "2021-12-29T00:00:00.000Z",
-      "id": 5
     }
   ]
 }

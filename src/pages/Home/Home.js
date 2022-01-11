@@ -5,7 +5,7 @@ import HomeLogic from "./HomeLogic";
 
 const Home = () => {
     const [ term, setTerm ] = useState(null);
-    const [ filter, setFilter ] = useState(null)
+    const [ filter, setFilter ] = useState(null);
     const [ url, setUrl ] = useState('http://localhost:8000/appointments');
 
     useEffect(() => {
