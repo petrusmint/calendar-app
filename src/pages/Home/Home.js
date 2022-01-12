@@ -9,14 +9,14 @@ const Home = () => {
     const [ url, setUrl ] = useState('http://localhost:8000/appointments');
 
     useEffect(() => {
-        let baseUrl = 'http://localhost:8000/appointments';
+        let baseUrl = 'http://localhost:8000/appointments?';
 
         if(filter) {
-            baseUrl += `?status=${filter}`;
+            baseUrl += `status=${filter}&`;
         }
 
         if(term) {
-            baseUrl += `&q=${term}`;
+            baseUrl += `q=${term}`;
         }
 
 
